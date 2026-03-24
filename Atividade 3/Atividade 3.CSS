@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7eafc; /* lilás bem claro */
+}
+
+/* header */
+header {
+    background-color: #e7c6ff; /* lilás pastel */
+    text-align: center;
+    padding: 20px;
+    color: #4a2c5a;
+}
+
+/* container principal */
+.container {
+    background: #fff0f6; /* rosa pastel */
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* seções */
+section {
+    margin-bottom: 25px;
+}
+
+/* títulos */
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #a06cd5;
+    border-bottom: 2px solid #e0aaff;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #c77dff;
+}
+
+/* textos */
+p {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* listas */
+ul {
+    padding-left: 20px;
+}
+
+/* inputs */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #d8b4fe;
+}
+
+/* botões */
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    background: #c77dff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* link botão */
+.botao {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #a06cd5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e7c6ff;
+    color: #4a2c5a;
+}
