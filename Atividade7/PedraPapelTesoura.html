@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+    <link rel="stylesheet" href="jogo.css">
+    <script src="jogo.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Pedra, Papel ou Tesoura</h1>
+
+        <h2>Comece a jogar! Escolha uma opção abaixo: </h2>
+
+        <div class="botoes">
+            <button onclick="jogar(0)">
+        <img src="https://abdulahadmansoori.github.io/RockPaperScissor/icons/rock_u.png" alt="Pedra">
+        Pedra
+    </button>
+
+    <button onclick="jogar(1)">
+        <img src="https://abdulahadmansoori.github.io/RockPaperScissor/icons/paper_u.png" alt="Papel">
+        Papel
+    </button>
+
+    <button onclick="jogar(2)">
+        <img src="https://abdulahadmansoori.github.io/RockPaperScissor/icons/scissor_c.png" alt="Tesoura">
+        Tesoura
+    </button>
+        </div>
+
+        <div class="resultado">
+            <p id="usuario"></p>
+            <p id="computador"></p>
+            <h2 id="resposta"></h2>
+        </div>
+    </div>
+
+    
+</body>
+</html>
